@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ApexPlanet Task 1 | Environment Setup</title>
+  <link rel="stylesheet" href="firststyle.css">
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">APP DEVELOPMENT INTERNSHIP · TASK 1</p>
+    <h1>Onboarding &amp; Environment Setup</h1>
+    <p>A beginner-friendly checklist for learning the Android development workflow.</p>
+    <span class="tag">9-day learning plan</span>
+  </header>
+
+  <main>
+    <section class="card">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">YOUR PROGRESS</p>
+          <h2>Setup checklist</h2>
+        </div>
+        <strong id="progressText">0 of 6 complete</strong>
+      </div>
+      <div class="progress-track"><div id="progressBar"></div></div>
+      <div class="checklist" id="checklist">
+        <label><input type="checkbox"> Read the internship task brief and list the objectives.</label>
+        <label><input type="checkbox"> Explore Android app concepts: Activity, layout, SDK, and Gradle.</label>
+        <label><input type="checkbox"> Try a browser-based app builder such as MIT App Inventor.</label>
+        <label><input type="checkbox"> Create a GitHub repository named ApexPlanet-Task-1.</label>
+        <label><input type="checkbox"> Add README.md and environment-setup.md documentation.</label>
+        <label><input type="checkbox"> Capture real screenshots and prepare a LinkedIn progress post.</label>
+      </div>
+      <p class="note">This checklist runs in your browser. It does not install Android Studio or configure the Android SDK.</p>
+    </section>
+
+    <section class="card">
+      <p class="eyebrow">LEARNING PLAN</p>
+      <h2>9-day outline</h2>
+      <div class="timeline">
+        <article><span>Days 1–2</span><div><h3>Onboarding</h3><p>Read the task brief, understand the expected deliverables, and plan your work.</p></div></article>
+        <article><span>Days 3–5</span><div><h3>Environment exploration</h3><p>Learn what Android Studio, Android SDK, Java/Kotlin, Gradle, Git, and GitHub are used for. If avoiding installation, document that you used a browser-based alternative.</p></div></article>
+        <article><span>Days 6–9</span><div><h3>Android fundamentals</h3><p>Study Activities, Fragments, layouts, and basic app flow. Build a small prototype using an online tool and record what you learned.</p></div></article>
+      </div>
+    </section>
+
+    <section class="card resources">
+      <p class="eyebrow">OFFICIAL / STARTER RESOURCES</p>
+      <h2>Useful links</h2>
+      <a href="https://ai2.appinventor.mit.edu/" target="_blank" rel="noreferrer">MIT App Inventor — browser-based app builder ↗</a>
+      <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub — host your project files ↗</a>
+      <a href="https://developer.android.com/guide" target="_blank" rel="noreferrer">Android Developers — Android concepts ↗</a>
+      <a href="https://git-scm.com/book/en/v2" target="_blank" rel="noreferrer">Git book — learn version control ↗</a>
+    </section>
+
+    <section class="card">
+      <p class="eyebrow">REFLECTION</p>
+      <h2>What I learned</h2>
+      <textarea id="reflection" rows="5" placeholder="Write what you explored, what worked, and what you still need to complete. Copy this into your project documentation before closing the page."></textarea>
+      <button id="copyReflection">Copy reflection</button>
+      <p id="copyStatus" class="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Learning prototype for ApexPlanet Internship Task 1.</p>
+    <p>Browser-based alternative only — not proof of native Android Studio/SDK setup.</p>
+  </footer>
+  <script src="firstscript.js"></script>
+</body>
+</html>
